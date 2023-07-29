@@ -1,11 +1,13 @@
 import React from 'react';
+import GreetingCard from './GreetingCard';
 import BackgroundColorToggle from './BackgroundColorToggle';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Background Color Toggle</h1>
-      <BackgroundColorToggle />
+    <div>
+      <h1>Welcome to our Website!</h1>
+      <GreetingCard name="Jashan" greeting="Hello" />
+      <GreetingCard name="Guys" greeting="Hi" />
     </div>
   );
 }
